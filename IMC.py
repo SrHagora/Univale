@@ -21,4 +21,4 @@ pesso =  float (input("Qual e sua pesso"))
 IMC = calculo_de_imc (pesso, altura)
 interpretacao = interpretar_imc(IMC)
 
-print(f"Seu IMC é {IMC:.2f}, o que é considerado {interpretacao}.")
+print(f"Seu IMC é {IMC}, o que é considerado {interpretacao}.")
