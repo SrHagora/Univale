@@ -12,7 +12,7 @@ def mostrar_mensagem():
     janela_mensagem.title("Mensagem Enviada")
 
     # mostrar mensagme
-    mensagem_label = tk.Label(janela_mensagem, text=f"Nome: {nome}\nEle falou: {mensagem}")
+    mensagem_label = tk.Label(janela_mensagem, text=f"Nome: {nome} diz: {mensagem}")
     mensagem_label.pack()
 
 
