@@ -27,7 +27,6 @@ class Computador:
         else:
             print("Sem monitor conectado")
 
-# Exemplo de uso:
 monitor1 = Monitor("Dell", 24)
 computador1 = Computador("HP","30")
 
